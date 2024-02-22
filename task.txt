@@ -10,10 +10,10 @@
 2  Project Pagination, Filtering _ Sorting
     00:30:54 - 008 Paginating Collections    ==> Done   | php artisan make:factory TaskFactory --model=Task | php artisan tinker | Task::factory(50)->create() | http://127.0.0.1/api/task?page=4
     00:34:24 - 009 Filter Resource Collections  | composer require spatie/laravel-query-builder | http://127.0.0.1/api/task?filter[is_done]=1
-    00:38:00 - 010 Sorting Resource Collections
+    00:38:00 - 010 Sorting Resource Collections ==> Done
 3  Project Authentication Using Laravel Sanctum
-    00:41:27 - 011 Tasks That Belong to Users
-    00:46:52 - 012 Logging in With Our User
+    00:41:27 - 011 Tasks That Belong to Users ==> Done 
+    00:46:52 - 012 Logging in With Our User     | php artisan make:controller AuthController
     00:55:46 - 013 Protecting Task Routes
     01:00:05 - 014 Create Tasks For The Logged In User
     01:02:02 - 015 Register a New User
