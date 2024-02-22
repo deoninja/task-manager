@@ -8,7 +8,7 @@
     00:23:36 - 006 Update a Resource    ==> Done  | php artisan make:request UpdateTaskRequest      
     00:28:18 - 007 Delete a Resource    ==> Done
 2  Project Pagination, Filtering _ Sorting
-    00:30:54 - 008 Paginating Collections
+    00:30:54 - 008 Paginating Collections    ==> Done   | php artisan make:factory TaskFactory --model=Task | php artisan tinker | Task::factory(50)->create() | http://127.0.0.1/api/task?page=4
     00:34:24 - 009 Filter Resource Collections
     00:38:00 - 010 Sorting Resource Collections
 3  Project Authentication Using Laravel Sanctum
