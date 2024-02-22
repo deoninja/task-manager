@@ -1,0 +1,38 @@
+** LECTURES **
+1  Project Basics CRUD Operations
+    00:00:00 - 001 Install a New Laravel App ==> Done
+    00:01:49 - 002 Create a First Route ==> Done
+    00:06:10 - 003 Model Resources ==> Done | php artisan make:model Task -cm
+    00:10:18 - 004 Resource Routes ==> Done | php artisan route:list
+    00:16:38 - 005 Creating a Resource ==> Done | php artisan make:request StoreTaskRequest
+    00:23:36 - 006 Update a Resource    ==> Done  | php artisan make:request UpdateTaskRequest      
+    00:28:18 - 007 Delete a Resource    ==> Done
+2  Project Pagination, Filtering _ Sorting
+    00:30:54 - 008 Paginating Collections
+    00:34:24 - 009 Filter Resource Collections
+    00:38:00 - 010 Sorting Resource Collections
+3  Project Authentication Using Laravel Sanctum
+    00:41:27 - 011 Tasks That Belong to Users
+    00:46:52 - 012 Logging in With Our User
+    00:55:46 - 013 Protecting Task Routes
+    01:00:05 - 014 Create Tasks For The Logged In User
+    01:02:02 - 015 Register a New User
+4  Project Relationships
+    01:07:36 - 016 Create Projects
+    01:14:15 - 017 Creating and Updating Projects
+    01:21:31 - 018 Setting The Project For a Task
+    01:28:16 - 019 Fetching Tasks For a Project
+    01:32:49 - 020 Fetch the Project List
+    01:37:33 - 021 Deleting Projects
+    01:41:18 - 022 Foreign Key Constraints
+    01:46:01 - 023 Add Project Members
+    01:51:04 - 024 Show the Project Members
+5  Project Authorization
+    01:54:10 - 025 Create a Policy For Projects
+    02:01:37 - 026 Filter List Responses by Membership
+    02:08:05 - 027 Implement Remaining Policy Methods
+    02:11:45 - 028 Adjust the Validation Rules For Tasks
+    02:15:22 - 029 Add a Task Policy
+
+
+    https://youtu.be/9FJeoq5z1_Y?si=zD_POdnQyE4O_vkp
