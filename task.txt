@@ -1,6 +1,6 @@
 ** LECTURES **
-1  Project Basics CRUD Operations
-    00:00:00 - 001 Install a New Laravel App ==> Done
+1  Project Basics CRUD Operations | 
+    00:00:00 - 001 Install a New Laravel App ==> Done | barryvdh/laravel-ide-helper
     00:01:49 - 002 Create a First Route ==> Done
     00:06:10 - 003 Model Resources ==> Done | php artisan make:model Task -cm
     00:10:18 - 004 Resource Routes ==> Done | php artisan route:list
@@ -9,7 +9,7 @@
     00:28:18 - 007 Delete a Resource    ==> Done
 2  Project Pagination, Filtering _ Sorting
     00:30:54 - 008 Paginating Collections    ==> Done   | php artisan make:factory TaskFactory --model=Task | php artisan tinker | Task::factory(50)->create() | http://127.0.0.1/api/task?page=4
-    00:34:24 - 009 Filter Resource Collections
+    00:34:24 - 009 Filter Resource Collections  | composer require spatie/laravel-query-builder | http://127.0.0.1/api/task?filter[is_done]=1
     00:38:00 - 010 Sorting Resource Collections
 3  Project Authentication Using Laravel Sanctum
     00:41:27 - 011 Tasks That Belong to Users
